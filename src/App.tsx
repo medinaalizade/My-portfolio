@@ -1,13 +1,12 @@
 import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 
 function App() {
   return (
-    <div className="bg-black min-h-screen">
+    <div className="bg-black">
       <Navbar />
 
-      <div className="pt-20 text-white text-center">
-        <h1>Portfolio Content Coming...</h1>
-      </div>
+      <Hero name="Madina Ali-zada" title="Full Stack React Developer" description="I build modern, responsive web applications using React and TypeScript."/>
     </div>
   );
 }
