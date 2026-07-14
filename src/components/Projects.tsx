@@ -27,15 +27,7 @@ const Projects: React.FC = () => {
             link: "#", 
             image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=600&auto=format&fit=crop",
             status: "Coming Soon"
-        },
-        {
-            title: "Next Big Project",
-            description: "Currently engineering an advanced system architecture to solve complex client-side problems. Implementation details dropping shortly.",
-            tags: ["Full-Stack", "Architecture", "Git"],
-            link: "#",
-            image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=600&auto=format&fit=crop",
-            status: "In Development"
-        },
+        }
     ];
 
     // ... rest of your component stays the same
