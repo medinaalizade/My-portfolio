@@ -1,10 +1,17 @@
 import React from "react";
 import MAmoviesScreen from "../assets/MAmovies.png";
-// Pro tip: If you don't have images for the other projects yet, 
-// you can use clean Unsplash placeholders directly in the code below!
+// You can add a screenshot of Task Master later, or use a placeholder for now
 
 const Projects: React.FC = () => {
     const projects = [
+        {
+            title: "Task Master",
+            description: "A full-stack todo application featuring a React frontend with glassmorphism design, dark mode, progress tracking, and a Node.js/Express backend with MongoDB Atlas integration.",
+            tags: ["React", "Node.js", "Express", "MongoDB", "REST API", "Full-Stack"],
+            link: "https://task-master-52ry.onrender.com/",
+            image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?q=80&w=600&auto=format&fit=crop", // Task/organization placeholder
+            status: "Completed"
+        },
         {
             title: "MAmovies",
             description: "A premium movie web application integrating TMDB API data streams, dynamic routing, and an immersive glassmorphism media details layer.",
@@ -17,8 +24,8 @@ const Projects: React.FC = () => {
             title: "MAstore",
             description: "A highly responsive minimalist clothing e-commerce store utilizing DummyJSON collections, global cart contexts, and multi-tier sidebar filters.",
             tags: ["React", "TypeScript", "Tailwind CSS", "Context API"],
-            link: "#", // Add link when deployed
-            image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=600&auto=format&fit=crop", // Clean luxury store placeholder
+            link: "#", 
+            image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=600&auto=format&fit=crop",
             status: "Coming Soon"
         },
         {
@@ -26,11 +33,12 @@ const Projects: React.FC = () => {
             description: "Currently engineering an advanced system architecture to solve complex client-side problems. Implementation details dropping shortly.",
             tags: ["Full-Stack", "Architecture", "Git"],
             link: "#",
-            image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=600&auto=format&fit=crop", // Sleek modern design placeholder
+            image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=600&auto=format&fit=crop",
             status: "In Development"
         },
     ];
 
+    // ... rest of your component stays the same
     return (
         <section id="projects" className="py-20 bg-black">
             <div className="max-w-6xl mx-auto px-6">
