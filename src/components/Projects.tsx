@@ -1,6 +1,6 @@
 import React from "react";
 import MAmoviesScreen from "../assets/MAmovies.png";
-// You can add a screenshot of Task Master later, or use a placeholder for now
+import TaskMasterScreen from "../assets/Task_Manager.png"
 
 const Projects: React.FC = () => {
     const projects = [
@@ -9,7 +9,7 @@ const Projects: React.FC = () => {
             description: "A full-stack todo application featuring a React frontend with glassmorphism design, dark mode, progress tracking, and a Node.js/Express backend with MongoDB Atlas integration.",
             tags: ["React", "Node.js", "Express", "MongoDB", "REST API", "Full-Stack"],
             link: "https://task-master-52ry.onrender.com/",
-            image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?q=80&w=600&auto=format&fit=crop", // Task/organization placeholder
+            image: TaskMasterScreen,
             status: "Completed"
         },
         {
